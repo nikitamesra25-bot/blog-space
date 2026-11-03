@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Edit Blog | BlogSpace</title>
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/auth.css">
+  <link rel="stylesheet" href="css/dashboard.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="logo">BlogSpace</a>
+      <a href="dashboard.html" class="btn">Dashboard</a>
+    </div>
+  </nav>
+
+  <main class="create-blog-section">
+    <div class="create-blog-container">
+
+      <h1>Edit Your Blog</h1>
+      <p>Update your blog details below.</p>
+
+      <form id="editBlogForm">
+
+        <label for="title">Blog Title</label>
+        <input
+          type="text"
+          id="title"
+          placeholder="Enter blog title"
+          required
+        >
+
+        <label for="content">Blog Content</label>
+        <textarea
+          id="content"
+          rows="8"
+          placeholder="Write your blog..."
+          required
+        ></textarea>
+
+        <label for="imageUrl">Image URL</label>
+        <input
+          type="url"
+          id="imageUrl"
+          placeholder="Enter image URL"
+        >
+
+        <button type="submit" id="updateBtn" class="btn">
+          Update Blog
+        </button>
+
+        <a href="dashboard.html" class="cancel-btn">
+          Cancel
+        </a>
+
+      </form>
+
+    </div>
+  </main>
+
+  <script src="js/api.js"></script>
+  <script src="js/edit-blog.js"></script>
+
+</body>
+</html>

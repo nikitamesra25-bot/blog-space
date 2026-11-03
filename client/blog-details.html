@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog Details - BlogSpace</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/dashboard.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <a href="index.html" class="logo">Blog<span>Space</span></a>
+    <nav>
+      <a href="dashboard.html">Dashboard</a>
+      <button id="logoutBtn" class="logout-btn">Logout</button>
+    </nav>
+  </header>
+
+  <main class="details-container">
+    <a href="dashboard.html" class="back-link">← Back to Dashboard</a>
+    <article id="blogDetails" class="blog-details">
+      <p>Loading blog...</p>
+    </article>
+  </main>
+
+  <script src="js/api.js"></script>
+  <script src="js/dashboard.js"></script>
+</body>
+</html>

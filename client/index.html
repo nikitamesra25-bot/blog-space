@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BlogSpace - Share Your Stories</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <a href="index.html" class="logo">Blog<span>Space</span></a>
+
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="#featured">Explore</a>
+      <a href="login.html">Login</a>
+      <a href="register.html" class="nav-btn">Get Started</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <span class="tag">WELCOME TO BLOGSPACE</span>
+        <h1>Share Your Stories.<br><span>Inspire The World.</span></h1>
+        <p>
+          A place where ideas become stories. Write blogs, share your
+          thoughts and connect with people around the world.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="register.html" class="btn">Start Writing</a>
+          <a href="#featured" class="btn btn-outline">Explore Blogs</a>
+        </div>
+      </div>
+
+      <div class="hero-image">
+        <img
+          src="https://images.unsplash.com/photo-1455390582262-044cdead277a?w=900"
+          alt="Writing on a notebook">
+      </div>
+    </section>
+
+    <section class="features" id="featured">
+      <div class="section-heading">
+        <span class="tag">DISCOVER</span>
+        <h2>Explore Amazing Stories</h2>
+        <p>Discover ideas, experiences and stories from different writers.</p>
+      </div>
+
+      <div class="feature-grid">
+        <article class="feature-card">
+          <img src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=600" alt="Writing">
+          <div class="feature-content">
+            <h3>Creative Writing</h3>
+            <p>Turn your thoughts and imagination into meaningful stories.</p>
+          </div>
+        </article>
+
+        <article class="feature-card">
+          <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=600" alt="Technology">
+          <div class="feature-content">
+            <h3>Technology</h3>
+            <p>Explore ideas, learning experiences and technology trends.</p>
+          </div>
+        </article>
+
+        <article class="feature-card">
+          <img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=600" alt="Workspace">
+          <div class="feature-content">
+            <h3>Personal Growth</h3>
+            <p>Read stories that motivate you to learn and grow.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="cta">
+      <h2>Your Story Deserves To Be Shared.</h2>
+      <p>Create an account and publish your first blog today.</p>
+      <a href="register.html" class="btn">Join BlogSpace</a>
+    </section>
+  </main>
+
+<section class="latest-blogs">
+    <div class="container">
+
+        <div class="section-heading">
+            <h2>Latest Blogs</h2>
+            <p>Explore the latest blogs from our community.</p>
+        </div>
+
+        <div id="homeBlogsContainer" class="blogs-container">
+            <p>Loading blogs...</p>
+        </div>
+
+    </div>
+</section>
+
+  <footer class="footer">
+    <a href="index.html" class="logo">Blog<span>Space</span></a>
+    <p>© 2026 BlogSpace. Share your ideas with the world.</p>
+  </footer>
+
+  <script src="js/api.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
